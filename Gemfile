@@ -12,9 +12,9 @@ gem 'shotgun'
 gem 'pry'
 
 group :test do
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 3.14.0'
   gem 'rack-test'
   gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 end
