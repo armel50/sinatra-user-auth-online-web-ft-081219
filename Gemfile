@@ -1,9 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'sinatra'
+gem 'sinatra', '>= 4.0.0'
 gem 'activerecord', '4.2', :require => 'active_record'
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord', '>= 2.0.14'
 gem 'rake'
 gem 'require_all'
 gem 'sqlite3', '~>1.3.6'
